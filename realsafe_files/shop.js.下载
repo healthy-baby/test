@@ -1,0 +1,204 @@
+jQuery(function($){
+
+mobileMenu = $(".mobileNavWrapper"),
+moveOnMenuOpen = $(".mobileNavWrapper, .wrapper, .header, .footer"),
+
+$('html').removeClass('no-js');
+
+/* Placeholder JS */
+/*==========================*/
+
+$('[placeholder]').each(function(){
+if ($(this).val() === '') {
+var hint = $(this).attr('placeholder');
+$(this).val(hint).addClass('hint');
+}
+});
+
+$('[placeholder]').focus(function() {
+if ($(this).val() === $(this).attr('placeholder')) {
+$(this).val('').removeClass('hint');
+}
+}).blur(function() {
+if ($(this).val() === '') {
+$(this).val($(this).attr('placeholder')).addClass('hint');
+}
+});                    
+
+
+
+/* Form validation JS */
+/*==========================*/
+
+$('input.error, textarea.error').focus(function() {
+$(this).removeClass('error');
+});
+
+$('form :submit').click(function() {
+$(this).parents('form').find('input.hint, textarea.hint').each(function() {
+$(this).val('').removeClass('hint');
+});
+return true;
+});
+
+$(document).ready(function(){
+
+$(".imgTabHolder").on("click","img", function() {
+var thisURL = $(this).data("url");
+$(".productSlideMain").attr("src",thisURL);
+});
+
+$(".productSelector").on("click", function() {
+var thisID = $(this).data("id"),
+thisPrice = $(this).data("price"),
+newCurrentImg = $(".product_" + thisID).data("url");
+
+$(".productSlideMain").attr("src",newCurrentImg);
+
+if (thisID != "") {
+$(".product-color").removeClass("active");
+$("#product-select").val(thisID);
+$(".pc_" + thisID).addClass("active");
+$("#product-price").html(thisPrice);
+}
+
+});
+
+$(".product-color").first().addClass("active");
+
+// show the main menu when you click the menu button
+$("#menubuttonsvg").on("click", function(e) {
+e.stopPropagation( );
+moveOnMenuOpen.toggleClass("showNav");
+});
+
+// hide the menu on page click/tap if mobile menu is showing
+$(".header, .wrapper").on("click", function() {
+moveOnMenuOpen.removeClass("showNav");
+});
+
+$(".changeQuantityInput").on("input", function() {
+$(this).siblings(".updateCart").show();
+});
+
+$("#productSelect").change(function() {
+var thisURL = $(this).val();
+if (thisURL != "choose") {
+window.location = "/collections/" + thisURL;
+}
+});
+
+$("#devicesSelect, #capacitySelect").change(function() {
+var thisURL = $(this).val();
+if (thisURL != "choose") {
+window.location = "/collections/all/" + thisURL;
+}
+});
+
+
+
+// jQuery(function($){
+// $(".addToCart").on("click", function() {
+// console.log(".addToCart clicked");
+// var itemID = $("#productSelect").val(),
+// itemQty = $("#Quantity").val();
+// $(".msgOverlay").removeClass("show");
+// $.ajax( {
+// url: '/cart/add.js',
+// type: 'post',
+// dataType: 'json',
+// data: { quantity: itemQty, id: itemID }
+// }).done( function( data ) {
+// $("#msg").text(data['title']);
+// $(".msgOverlay").addClass("showIt");
+
+
+// var incomingCount = parseInt($("#quantity").val()),
+// incomingPrice = String(data.price),
+// oldCount = parseInt($(".updateCount").text()),
+// oldPrice = parseFloat($(".updatePrice").text().replace('$', '')),
+// cents = "." + incomingPrice.slice(-2),
+// dollars = incomingPrice.substring(0, incomingPrice.length - 2),
+// newPrice = parseFloat(dollars + cents)*incomingCount;
+
+// $(".updateCount").text(oldCount + incomingCount);
+// $(".updatePrice").text("$" + (oldPrice + newPrice).toFixed(2));
+
+
+// }).fail( function(data) {
+// if (data.status == "422") {
+// alert("This product is out of stock"); 
+// }
+// });
+// });
+
+
+$(".msgOverlayClose").on("click", function() {
+$(".msgOverlay").removeClass("showIt");
+});
+
+
+$('.see-more').on('click', function(){
+$('.section-more-text-wrapper').toggleClass('open');
+$('.see-more').toggleClass('hide');
+});
+
+
+
+
+
+
+
+
+// Smooth Scroll
+
+// Select all links with hashes
+$('a[href*="#"]')
+// Remove links that don't actually link to anything
+.not('[href="#"]')
+.not('[href="#0"]')
+.click(function(event) {
+// On-page links
+if (
+location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+&& 
+location.hostname == this.hostname
+) {
+// Figure out element to scroll to
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+// Does a scroll target exist?
+if (target.length) {
+// Only prevent default if animation is actually gonna happen
+event.preventDefault();
+$('html, body').animate({
+scrollTop: target.offset().top
+}, 1000, function() {
+// Callback after animation
+// Must change focus!
+var $target = $(target);
+$target.focus();
+if ($target.is(":focus")) { // Checking if the target was focused
+return false;
+} else {
+$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+$target.focus(); // Set focus again
+};
+});
+}
+}
+});
+
+
+
+
+
+
+
+
+
+
+});
+});
+// });
+

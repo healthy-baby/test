@@ -1,0 +1,1648 @@
+/* announcement bar */
+.membership-header-bar {
+  background: #fe3e47 !important;
+}
+
+.membership-header-bar .membership-subscribe {
+  flex-basis: inherit !important;
+}
+
+.membership-header-bar .membership-subscribe p {
+  font-size: 12px !important;
+  display: inline-flex;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.membership-header-bar .membership-subscribe .fifteen-percent {
+  font-size: 16px !important;
+}
+
+@media screen and (min-width: 769px) {
+  .membership-header-bar .membership-subscribe .fifteen-percent {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .membership-header-bar .membership-subscribe .fifteen-percent {
+    font-size: 16px !important;
+  }
+}
+
+.membership-header-bar .membership-subscribe .header-icon {
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .membership-header-bar .membership-subscribe p {
+    display: inline-block !important;
+  }
+
+  .membership-header-bar .membership-subscribe .header-icon {
+    margin: 0 5x !important;
+  }
+}
+
+/* cart to desktop membership bar */
+.membership-header-bar .membership-header-bar-inner {
+  position: relative;
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+  .membership-header-bar .membership-header-bar-inner {
+    width: 95%;
+  }
+}
+
+.membership-header-bar .membership-header-bar-inner .cart {
+  list-style: none;
+  position: absolute;
+  right: 0;
+}
+
+.membership-header-bar .membership-header-bar-inner .site-header__cart-toggle {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.membership-header-bar .membership-header-bar-inner .site-header__cart-toggle .icon img {
+  width: 24px;
+}
+
+@media screen and (max-width: 950px) {
+  .membership-header-bar .membership-header-bar-inner .site-header__cart-toggle .icon img {
+    width: 20px;
+  }
+}
+
+.membership-header-bar .membership-header-bar-inner .site-header__cart-toggle #CartCount {
+  color: white;
+  font-size: 15px;
+}
+
+.mobile-bar {
+  display: flex;
+}
+
+.desktop-bar {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-bar {
+    display: none;
+  }
+  
+  .desktop-bar {
+    display: flex;
+  }
+  
+  .membership-header-bar .membership-subscribe p {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .membership-header-bar .membership-subscribe p {
+    font-size: 8px !important;
+  }
+}
+
+@media screen and (min-width: 875px) {
+  .membership-header-bar .membership-subscribe p {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .membership-header-bar .membership-subscribe p {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .membership-header-bar .membership-subscribe p {
+    font-size: 13px !important;
+  }
+}
+
+
+/* quiz section */
+.get-matchaed {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.get-matchaed .leaf {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  width: 150px;
+}
+
+.get-matchaed .powder {
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+  width: 40%;
+  max-width: 350px;
+}
+
+.get-matchaed .inner-content {
+  border: 1px solid #80b966;
+  padding: 30px;
+}
+
+.get-matchaed .inner-content p {
+  max-width: 850px;
+  margin: auto;
+}
+.full-content-wrapper{margin-bottom:14px;}
+.section-collection-description a{
+  	padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 21px;
+    color: #81ac68;
+    display: inline!important;
+    background: #f0f0f0;
+    margin-top: 20px;
+    position: relative;
+}
+.clearfix{clear:both;width:100%;height:1px;margin-top:-1px;display:block;}
+.customer-favorites .grid__item{margin-top:40px;}
+.customer-favorites a{font-size:28px;color:#474747;font-weight: 700;}
+.customer-favorites p.price {
+    font-size: 18px;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #81ac68;
+}
+
+.customer-favorites {
+padding-bottom: 0px;
+}
+
+.sub-dropdown{position:absolute;left:100%;top:0;display:none;margin:0}
+.has-sub-dropdown:hover .sub-dropdown{display:block;}
+
+@media screen and (max-width: 1100px) {
+  .site-nav__dropdown {
+    width:120px;
+  }
+}
+  
+
+/* Affiliates / Ambassador Pages */
+.bg-immage-affiliates {
+  background: #80ae61 url(https://cdn.shopify.com/s/files/1/1456/8506/files/MatchaKari-25.jpg?8298) right center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1800px;
+  margin-bottom: 60px;
+}
+
+.bg-immage-ambassadors-1 {
+  background: #80ae61 url(https://cdn.shopify.com/s/files/1/1456/8506/files/MatchaKari-25.jpg?8298) right center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1800px;
+  margin-bottom: 60px;
+}
+
+.bg-immage-ambassadors-2 {
+  background: #80ae61 url(https://cdn.shopify.com/s/files/1/1456/8506/files/BCEB4862-663F-4375-B78B-0C64E21DBA35.jpg?9230) right center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1800px;
+  margin-bottom: 60px;
+}
+
+.bg-immage-programs-mask {
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 66%, transparent 99%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.3) 66%, transparent 99%);
+}
+
+.column100.programs-story {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  position: relative;
+  overflow: visible;
+}
+
+@media screen and (max-width: 780px) {
+  .column100.programs-story {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+.img-matcha-dust {
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  bottom: -90px;
+}
+
+@media screen and (max-width: 780px) {
+  .img-matcha-dust {
+    bottom: -50px;
+    max-width: 200px;
+  }
+}
+
+.column100.programs-story .column50 {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.column100.programs-story .column50 h2 {
+  font-size: 46px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .column100.programs-story .column50 h2 {
+    font-size: 30px;
+  }
+}
+
+.column100.our-matcha-story .column50 .text-wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+/* Affiliates */
+.affiliates__content .wrapper {
+  max-width: 1000px;
+}
+
+.affiliates__content .red {
+  color: #fe3e47 !important;
+}
+
+.affiliates__content .green {
+  color: #61B049 !important;
+}
+
+.affiliates__get-started {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.affiliates__get-started-image {
+  width: 40%;
+  height: 0;
+  padding-bottom: 35%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.affiliates__get-started-text {
+  padding: 50px;
+}
+
+.affiliates__icons--affiliates {
+  padding: 30px 0 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.affiliates__icons--affiliates h4 {
+  max-width: 200px;
+  margin: auto;
+  line-height: normal;
+}
+
+.affiliates__icon--program {  
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  width: 22%;
+  flex-shrink: 0;
+}
+
+.affiliates__icon--lrg {  
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 875px) {
+  .affiliates__icon--program {
+    width: 48%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .affiliates__icon--program {
+    width: 75%;
+    margin: auto;
+    min-width: 175px;
+  }
+}
+
+.affiliates__icon--program img {
+  max-width: 175px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .ambassadors__icon--lrg {
+    width: 75%;
+    margin: auto;
+    min-width: 175px;
+  }
+}
+
+.ambassadors__icon--lrg img {
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Ambassadors */
+.ambassadors__content .wrapper {
+  max-width: 1000px;
+}
+
+.ambassadors__content .red {
+  color: #fe3e47 !important;
+}
+
+.ambassadors__content .green {
+  color: #61B049 !important;
+}
+
+.ambassadors__icons--ambassadors {
+  padding: 30px 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ambassadors__icon--lrg {  
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.ambassadors__icons--ambassadors h4 {
+  max-width: 200px;
+  margin: auto;
+  line-height: normal;
+}
+
+@media screen and (max-width: 500px) {
+  .ambassadors__icon--lrg {
+    width: 75%;
+    margin: auto;
+    min-width: 175px;
+  }
+}
+
+.ambassadors__icon--lrg img {
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.detail-line {
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.ambassadors__icon--challenge {  
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  width: 22%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 875px) {
+  .ambassadors__icon--challenge {
+    width: 48%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .ambassadors__icon--challenge {
+    width: 75%;
+    margin: auto;
+    min-width: 175px;
+  }
+}
+
+.ambassadors__icon--challenge img {
+  max-width: 175px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ambassadors__get-started {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.ambassadors__get-started-image {
+  width: 40%;
+  height: 0;
+  padding-bottom: 35%;
+  background-size: cover;
+  background-position: center center;
+  flex-shrink: 0;
+}
+
+.ambassadors__get-started-text {
+  width: 60%;
+  padding: 0;
+  text-align: center;
+}
+
+.ambassadors__icons--apply {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ambassadors__icon--sm {
+  text-align: center;
+  max-width: 200px;
+  min-width: 100px;
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.ambassadors__icon--sm img {
+  width: 100%;
+  margin: 0 auto;
+} 
+
+@media screen and (max-width: 769px) {
+  .ambassadors__get-started-image {
+    width: 75%;
+    margin: auto;
+    min-width: 300px;
+    padding-bottom: 60%;
+  }
+  
+  .ambassadors__get-started-text {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .ambassadors__icons--apply {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ambassadors__icon--sm {
+    width: 75%;
+    margin: auto;
+    min-width: 125px;
+  }
+}
+
+.faq__content {
+  padding: 50px 0;
+}
+
+
+/* lity */
+#program-guidelines, 
+#challenge-guidelines,
+#qualify {
+  padding: 25px;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 300px;
+  overflow: scroll;
+}
+
+#program-guidelines .red,
+#challenge-guidelines .red,
+#qualify .red {
+  color: #fe3e47 !important;
+}
+
+
+/* footer social updates */
+.site-footer .column25 ul.footersocials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.site-footer .column25 ul.footersocials li {
+  width: 23%;
+}
+
+
+
+/* cart */
+.cart .cart-redeem {
+  text-decoration: underline;
+  color: #80b966;
+  font-size: 20px;
+}
+
+/* remove edit on recharge */
+.rc_subscriptions__subscription__item__actions .store_email_cancel_text{
+  display:none !important;
+}
+
+/* hide wholesale search results from non-wholesale */
+.template-search .hide-search {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* Swell rewards and overrides*/
+#swell-bootstrap .rewards-templete h1,
+#swell-bootstrap .rewards-templete h2,
+#swell-bootstrap .rewards-templete h3,
+#swell-bootstrap .rewards-templete h4,
+#swell-bootstrap .rewards-templete h5,
+#swell-bootstrap .rewards-templete h6 {
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  text-transform: capitalize !important;
+  font-family: Playfair Display, serif !important;
+  font-weight: 700 !important;
+}
+#swell-bootstrap .rewards-templete .banner .img-responsive {
+  margin: 0 !important;
+  min-height: 180px;
+}
+#swell-bootstrap .rewards-templete .container {
+  width: 100% !important;
+  max-width: 1000px;
+}
+#swell-bootstrap .rewards-templete .container .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+#swell-bootstrap .rewards-templete .caption h1 {
+  font-family: Playfair Display, serif !important;
+  font-weight: 700 !important;
+  font-size: 68px !important;
+  color: #ffffff !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  line-height: 43px !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+
+#swell-bootstrap .rewards-templete .caption p {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+
+#swell-bootstrap .rewards-templete .point-circle {
+  background-color: #ffffff !important;
+}
+
+#swell-bootstrap .rewards-templete .point-circle h2,
+#swell-bootstrap .rewards-templete .point-circle p {
+  font-family: Montserrat !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+
+#swell-bootstrap .rewards-templete .earn-section {
+  padding-top: 50px !important;
+}
+#swell-bootstrap .rewards-templete .rewards-page-campaigns-section-image {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 100% !important;
+}
+#swell-bootstrap .rewards-templete .redeem-section {
+  padding-top: 35px !important;
+}
+#swell-bootstrap .rewards-templete .rewards-page-redeem-section-image {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 100% !important;
+}
+#swell-bootstrap .rewards-templete .banner {
+  min-height: 338px;
+  background: #000000 !important;
+  max-height: 450px !important;
+  overflow: inherit !important;
+  position: relative !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+#swell-bootstrap .rewards-templete .banner img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 450px !important;
+}
+#swell-bootstrap .rewards-templete .banner .caption {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  text-align: center !important;
+  top: 35% !important;
+}
+#swell-bootstrap .rewards-templete .banner .caption h1,
+#swell-bootstrap .rewards-templete .banner .caption p {
+  text-align: center !important;
+}
+#swell-bootstrap .rewards-templete .banner .point-circle {
+  position: absolute !important;
+  bottom: -63px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+  border-radius: 100% !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  width: 170px !important;
+  height: 170px !important;
+  font-size: 25px !important;
+}
+#swell-bootstrap .rewards-templete .banner .point-circle h2 {
+  font-size: 60px !important;
+  margin: 30px 0 0 !important;
+  line-height: 55px !important;
+}
+#swell-bootstrap .rewards-templete .main-block .heading-holder {
+  text-align: center !important;
+  margin: 0 0 30px !important;
+  font-size: 20px !important;
+}
+#swell-bootstrap .rewards-templete .main-block .heading-holder h2 {
+
+}
+#swell-bootstrap .rewards-templete .main-block .heading-holder p {
+  text-align: center !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder {
+  margin-bottom: 100px !important;
+  overflow: hidden !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box {
+  text-align: center !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+  overflow: hidden !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box .icon-holder {
+  max-width: 60px !important;
+  padding: 13px !important;
+  margin: 0 auto !important;
+  border-radius: 100% !important;
+  height: 60px !important;
+  text-align: center !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box .icon-holder i {
+  font-size: 30px !important;
+  padding: 3px 0 0 !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box h3 {
+  margin: 15px 0 5px !important;
+  font-size: 30px;
+  text-align: center !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box h2 {
+  margin: 0 !important;
+  font-size: 35px;
+  text-align: center !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .referral-block {
+  padding: 35px 0 !important;
+  text-align: center !important;
+  font-size: 20px !important;
+  width: 100% !important;
+  height: auto !important;
+}
+#swell-bootstrap .rewards-templete .referral-block h2 {
+
+}
+#swell-bootstrap .rewards-templete .referral-block p {
+
+}
+#swell-bootstrap .rewards-templete .referral-block .swell-referral-link{
+  height: auto !important;
+  margin: 0 !important;
+  text-align: center !important;
+} 
+#swell-bootstrap .rewards-templete .btn-block ul {
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 15px 0 0 !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li {
+  display: block !important;
+}
+#swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li a {
+  display: inline-block !important;
+  width: 92% !important;
+  margin: 0 !important;
+}
+#swell-bootstrap .rewards-templete .btn-block ul li {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 0 10px 10px !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+}
+#swell-bootstrap .rewards-templete .btn-block ul li a {
+  padding: 10px 20px !important;
+
+  min-width: 180px !important;
+  display: inline-block;
+}
+#swell-bootstrap .rewards-templete .btn-block ul li a:hover {
+
+  text-decoration: none !important;
+}
+#swell-bootstrap .rewards-templete .faq-block {
+  text-align: center !important;
+  padding: 50px 0 !important;
+  background-color: #ffffff !important;
+}
+#swell-bootstrap .rewards-templete .block-holder .heading-holder h2 {
+  margin: 0 !important;
+  text-align: center !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+  margin-bottom: 25px !important;
+  text-align: center !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .faq-block .content-block h2 {
+  color: #404040 !important;
+  margin: 0 !important;
+  font-size: 26px !important;
+  text-align: center !important;
+  font-family: Playfair Display, serif !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .faq-block .content-block p {
+  color: #404040 !important;
+  margin-bottom: 25px !important;
+  font-size: 15px !important;
+  opacity: 1 !important;
+  float: none !important;
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#swell-bootstrap .rewards-templete .faq-block .content-block {
+  font-family: Montserrat !important;
+}
+@media (max-width: 786px) {
+  #swell-bootstrap .rewards-templete .banner {
+    min-height: 180px !important;
+  }
+  #swell-bootstrap .rewards-templete .earn-section {
+      padding-top: 70px !important;
+  }
+  #swell-bootstrap .rewards-templete .main-block .block-holder {
+      margin-bottom: 50px !important;
+  }
+  #swell-bootstrap .rewards-templete .banner .caption{
+    top:20% !important;
+    }
+  #swell-bootstrap .rewards-templete .banner .point-circle {
+    bottom: -35px !important;
+    width: 70px !important;
+    height: 70px !important;
+    font-size: 16px !important;
+  }
+  #swell-bootstrap .rewards-templete .banner .point-circle h2 {
+    font-size: 20px !important;
+    margin: 15px 0 0 !important;
+    line-height: 20px !important;
+  }
+  #swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.rewards-templete .main-block .block-holder .item-box h2 {
+  text-transform: uppercase !important;
+}
+
+.rewards-templete .heading-holder h2,
+.rewards-templete .heading-holder p {
+  color: #404040 !important;
+}
+
+.rewards-templete .heading-holder h2 {
+  font-family: Multi !important;
+  font-size: 43px !important;
+}
+
+.rewards-templete .heading-holder p {
+  font-family: Montserrat !important;
+  font-size: 25px !important;
+}
+
+.rewards-templete .rewards-page-campaigns-section-image {
+  background: url(false) no-repeat !important;
+}
+
+.rewards-templete .rewards-page-campaigns-section-color {
+  background-color: #f6f6f6 !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box {
+  background-color: #ededed !important;
+  position: relative;
+}
+
+.rewards-templete .main-block .block-holder .item-box:hover {
+  cursor: pointer;
+  background-color: #ffffff !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box:hover h3,
+.rewards-templete .main-block .block-holder .item-box:hover h2 {
+  color: #eb5a5d !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box .icon-holder {
+  background-color: #81ba67 !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box .icon-holder i {
+  color: #ffffff !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box h3 {
+  color: #404040 !important;
+  font-size: 34px !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box h2 {
+  color: #404040 !important;
+  font-size: 30px !important;
+}
+
+.rewards-templete .main-block .block-holder .item-box h3,
+.rewards-templete .main-block .block-holder .item-box h2 {
+  font-family: Montserrat !important;
+}
+.item-box:hover .hover-logout-box {
+  display: block !important;
+}
+.rewards-templete .hover-logout-box {
+  background: #ffffff !important;
+  position: absolute !important;
+  top:0 !important;
+  height: 100% !important;
+  display: none !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.rewards-templete .hover-logout-box .btn-block {
+  height: 100% !important;
+  position: absolute !important;
+  top: 20% !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+}
+.rewards-templete .hover-logout-box .icon-holder {
+  margin-bottom: 60px !important;
+}
+
+
+
+/* SWELL OVERRIDES */
+
+/* HERO + CIRCLE */
+#swell-bootstrap .bg-immage-affiliates {
+  position: relative;
+}
+
+#swell-bootstrap .column100.programs-story .column50 h2 {
+  font-size: 46px;
+  line-height: 1;
+}
+
+#swell-bootstrap .column100.programs-story .column50 .hero_subtitle {
+  color: white;
+  font-family: Montserrat !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .column100.programs-story .column50 h2 {
+    font-size: 30px;
+  }
+  
+  #swell-bootstrap .column100.programs-story .column50 .hero_subtitle {
+    font-size: 16px;
+  }
+}
+
+#swell-bootstrap .rewards-templete .bg-immage-affiliates .point-circle {
+  position: absolute !important;
+  bottom: -63px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+  border-radius: 100% !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  width: 170px !important;
+  height: 170px !important;
+  font-size: 25px !important;
+}
+
+#swell-bootstrap .rewards-templete .bg-immage-affiliates .point-circle h2 {
+  font-size: 60px !important;
+  margin: 30px 0 0 !important;
+  line-height: 55px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .bg-immage-affiliates .point-circle {
+    width: 125px !important;
+    height: 125px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .bg-immage-affiliates .point-circle h2 {
+    font-size: 40px !important;
+    line-height: 40px !important;
+    margin-top: 15px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .point-circle p {
+    font-size: 15px !important;
+  }
+}
+
+
+#swell-bootstrap .rewards-templete .earn-section {
+  padding-top: 100px !important;
+}
+
+/* How you can earn points section */
+#swell-bootstrap .rewards-templete .block-holder .heading-holder #earn_header {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder #earn_header {
+    font-size: 30px !important;
+  }
+
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+    font-size: 16px !important;
+  }
+}
+
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box h3 {
+  font-size: 18px !important;
+  margin: 0 !important;
+  font-family: Montserrat !important;
+  font-weight: normal !important;
+}
+
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box h2 {
+  font-size: 14px !important;
+  font-family: Montserrat !important;
+  font-weight: normal !important;
+}
+
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #81ba67 !important;
+  background: white !important;
+  height: 140px !important;
+}
+
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box .icon-holder {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#swell-bootstrap .rewards-templete .main-block .block-holder .item-box .icon-holder i {
+  color: #81ba67 !important;
+}
+
+#rp-campaigns-region {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+}
+
+#rp-campaigns-region .campaign {
+  min-height: 140px !important;
+  width: 49% !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+#rp-campaigns-region .swell-unauthenticated {
+  min-height: 140px !important;
+  width: 49% !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+@media screen and (min-width: 781px) {
+  #rp-campaigns-region .campaign {
+    min-height: 140px !important;
+    width: 32% !important;
+  }
+  
+  #rp-campaigns-region .swell-unauthenticated {
+    min-height: 140px !important;
+    width: 32% !important;
+  }
+}
+
+#rp-campaigns-region .campaign .swell-campaign-link {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+  #swell-bootstrap .swell-authenticated {
+    width: auto !important;
+    float: none !important;
+  }
+  
+  #swell-bootstrap .swell-unauthenticated {
+    width:  none !important;
+    float: none !important;
+  }
+}
+
+#swell-bootstrap .btn-block {
+  top: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li.login-btn {
+  padding: 0 !important;
+}
+
+
+#swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li.register-btn {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .hover-logout-box .btn-block ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+}
+
+/* Refer a friend section */
+#swell-bootstrap .rewards-templete .referral-block #referral_header {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .referral-block p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+#swell-bootstrap .social-icon ul {
+  display: inline-flex !important;
+}
+
+#swell-bootstrap .rewards-templete .referral-block .social-icon ul li i {
+  margin-top: 10px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .referral-block #referral_header { 
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+    font-size: 16px !important;
+  }
+}
+
+/* Redeem rewards section */
+#swell-bootstrap .rewards-templete .block-holder .heading-holder #redeem_header {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder #redeem_header {
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+    font-size: 16px !important;
+  }
+}
+
+#redeem-options-region {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+}
+
+#redeem-options-region .swell-redemption-link  {
+  min-height: 140px !important;
+  width: 49% !important;
+  padding: 0 !important
+}
+
+#redeem-options-region .swell-unauthenticated  {
+  min-height: 140px !important;
+  width: 49% !important;
+  padding: 0 !important
+}
+
+@media screen and (min-width: 781px) {
+  #redeem-options-region .swell-redemption-link  {
+    min-height: 140px !important;
+    width: 32% !important;
+    padding: 0 !important
+  }
+  
+  #redeem-options-region .swell-unauthenticated  {
+    min-height: 140px !important;
+    width: 32% !important;
+    padding: 0 !important
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #swell-bootstrap .col-md-4 {
+    float: none !important;
+  }
+}
+
+/* Points history section */
+#swell-bootstrap .rewards-templete .referral-block #transaction-history-header {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .referral-block p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .referral-block #transaction-history-header {
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .referral-block p {
+    font-size: 16px !important;
+  }
+}
+
+#swell-bootstrap .rewards-templete .btn-block ul li {
+  border-radius: 0px;
+  background-color: #61B049;
+  color: #fff;
+  font: 12px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 600;
+  border: 1px solid transparent;
+  line-height: 1.42;
+  padding: 10px 30px !important;
+  width: auto;
+}
+
+/* FAQ section */
+#swell-bootstrap .rewards-templete .block-holder .heading-holder #faq-header {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder #faq-header {
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+    font-size: 16px !important;
+  }
+}
+
+
+/* FAQ */
+#swell-bootstrap .rewards__faq--header {
+  width: 100%;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E6E6E6;
+}
+
+#swell-bootstrap .rewards__faq--header:hover {
+  cursor: pointer;
+  background: #C4C4C4;
+}
+
+#swell-bootstrap .rewards__faq--header p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: left;
+  color: #474747;
+}
+
+@media only screen and (max-width: 780px) {
+  #swell-bootstrap .rewards__faq--header p {
+    font-size: 18px !important;
+  }
+}
+
+#swell-bootstrap .rewards__faq--header .fas {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 780px) {
+  .rewards__faq--header .fas {
+    font-size: 15px !important;
+  }
+}
+
+#swell-bootstrap .rewards__faq--header .fa-minus {
+  display: none;
+}
+
+#swell-bootstrap .rewards__faq--content {
+  display: none;
+  padding: 10px 20px;
+}
+
+#swell-bootstrap .rewards__faq--content p, #swell-bootstrap .rewards__faq--content li {
+  margin-bottom: 0;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 780px) {
+  #swell-bootstrap .rewards__faq--content p {
+    font-size: 16px !important;
+  }
+}
+
+#swell-bootstrap .rewards__faq--item {
+  margin-bottom: 15px;
+}
+
+#swell-bootstrap .rewards__faq--item.open .fa-minus {
+  display: block;
+}
+
+#swell-bootstrap .rewards__faq--item.open .fa-plus {
+  display: none;
+}
+
+
+
+/* top text section */
+#swell-bootstrap .top-text__container {
+  padding-bottom: 50px;
+  text-align: center;
+  background: #f6f6f6 !important;
+  margin-top: -60px;
+  padding-top: 100px;
+}
+
+#swell-bootstrap .top-text__container .section-title {
+  margin-top: 0;
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .top-text__container .section-title {
+    font-size: 30px !important;
+  }
+}
+
+/* How it works */
+#swell-bootstrap .how-it-works__container {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  max-width: 1000px;
+  background: #fff !important;
+  margin: auto !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .how-it-works__container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+#swell-bootstrap .how-it-works__container .hiw-icon {
+  width: 35px;
+  height: auto;
+  margin: 0 auto 15px;
+}
+
+#swell-bootstrap .how-it-works__container .section-title {
+  margin-top: 0;
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 25px !important;
+  color: #474747 !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .how-it-works__container .section-title {
+    font-size: 30px !important;
+  }
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step {
+  width: 31%
+}
+
+
+@media screen and (max-width: 550px) {
+  #swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step {
+    width: 100%
+  }
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step .num {
+  color: #81ba67 !important;
+  margin: 0;
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step .hiw-title {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: #474747;
+  margin: 0;
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step .hiw-description {
+  font-size: 18px !important;
+}
+
+#swell-bootstrap .how-it-works__container .hiw-steps__container .hiw-step img {
+  width: 60px;
+  margin: 0 auto 10px;
+}
+
+#swell-bootstrap .how-it-works__container .scoop {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+/* Not signed in */
+#swell-bootstrap .rewards-templete .referral-block h2 {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap .rewards-templete .block-holder .heading-holder h2 {
+  font-size: 46px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+#swell-bootstrap #swell-bootstrap .rewards-templete .referral-block p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+#swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  #swell-bootstrap .rewards-templete .referral-block h2 {
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder h2 {
+    font-size: 30px !important;
+  }
+  
+  #swell-bootstrap #swell-bootstrap .rewards-templete .referral-block p {
+    font-size: 16px !important;
+  }
+  
+  #swell-bootstrap .rewards-templete .block-holder .heading-holder p {
+    font-size: 16px !important;
+  }
+}
+
+
+#swell-bootstrap .rewards-templete .btn-block ul li {
+  background: transparent !important;
+  border: none !important;
+  color: none !important;
+}
+
+#swell-bootstrap .rewards-templete .btn-block ul li a {
+  background: transparent !important;
+  border: 1px solid #61B049 !important;
+  color: #61B049 !important;
+}
+
+#swell-bootstrap .rewards-templete .btn-block ul li a:hover {
+  background: #61B049 !important;
+  color: white !important;
+}
+
+#swell-bootstrap #view-history-btn {
+  background: #81ba67 !important;
+  border: 1px solid #81ba67 !important;
+  color: white !important;
+}
+
+
+#swell-popup .swell-container #swell-auth-body .swell-auth-items {
+  max-height: 400px !important;
+}
+
+
+/* minor recharge updates on product form */
+/* .template-product .form-vertical .rc_popup {
+  text-align: right;
+} */
+
+/* .template-product .form-vertical .subscription-product-wrapper {
+  justify-content: space-between;
+} */
+
+/* full width call to action button for product grid item */
+.grid__item .grid__item--btn {
+  width: 100% !important;
+  max-width: none;
+}
